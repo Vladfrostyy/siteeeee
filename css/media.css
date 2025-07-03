@@ -1,0 +1,179 @@
+
+@media (max-width: 1070px) {
+  .digest__card {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+@media (max-width: 1015px) {
+  .team-section__card {
+    max-width: 220px;
+  }
+}
+@media (max-width: 960px) {
+  .main__image img {
+    max-width: 500px;
+    object-fit: cover;
+  }
+  .digest__card {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+  }
+  img.digest__image {
+    max-width: 600px;
+    object-fit: cover;
+    display: flex;
+  }
+}
+@media (max-width: 850px) {
+  .main__body {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .main__image img {
+    max-width: 600px;
+    object-fit: cover;
+  }
+  .main__body {
+    padding: 0px 0px 50px 0px;
+  }
+}
+@media (max-width: 740px) {
+  .header__list {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-finance-section__about {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .main-finance-section__about-text {
+    max-width: 100%;
+  }
+  .main-finance-section__img {
+    height: 350px;
+  }
+}
+
+@media (max-width: 650px) {
+  img.digest__image {
+    max-width: 100%;
+    object-fit: cover;
+    display: flex;
+  }
+  .digest__card {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    margin: 20px;
+    flex-direction: column;
+  }  
+  .digest__body {
+    gap: 50px;
+  }
+  .main__image img {
+    max-width: 100%;
+    object-fit: cover;  
+  }
+  .main__title {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+  .main__text {
+    font-size: 16px;
+  }
+  .digest__container {
+    padding: 40px 15px;
+  }
+  .main__button {
+    padding: 15px 30px;
+  }
+}
+@media (max-width: 350px) {
+  .main__title {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .main__text {
+    font-size: 14px;
+  }
+  .main__button {
+    padding: 12px 25px;
+    font-size: 15px;
+  }
+  .card__column {
+    gap: 20px;
+  }
+  .card__title {
+    font-size: 23px;
+  }
+  .card__text {
+    font-size: 15px;
+  }
+  .card__buttonDiv {
+    padding: 8.75px 15.5px;
+    max-width: 170px;
+  }
+  .digest__body {
+    gap: 30px;
+  }
+  .main-finance-section__about-text {
+    font-size: 14px;
+  }
+  .main-finance-section__mission-text {
+    font-size: 15px;
+  }
+  .main-finance-section__founder-name {
+    font-size: 18px;
+  }
+  .main-finance-section__founder-role {
+    font-size: 14px;
+  }
+  .advantages__title {
+    font-size: 20px;
+  }
+  .advantages__text {
+    font-size: 14px;
+  }
+  .team-section__subtitle {
+    font-size: 14px;
+  }
+  .team-section__title {
+    font-size: 18px;
+  }
+  .testimonial-section__body {
+      margin: 10px auto 44px auto;
+  }
+  .testimonial-section__text {
+    font-size: 18px;
+  }
+  .testimonial-section__author-img {
+    width: 40px;
+    height: 40px;
+  }
+  .testimonial-section__author-name {
+    font-size: 16px;
+  }
+  .testimonial-section__author-role {
+    font-size: 14px;
+  }
+}
+@media (max-width: 0px) {
+  
+}
+@media (max-width: 0px) {
+  
+}
